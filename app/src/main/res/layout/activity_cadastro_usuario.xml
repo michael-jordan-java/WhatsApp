@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical|center_horizontal"
+    android:padding="@dimen/padding"
+    tools:context="br.com.jordan.whatsapp.Activity.CadastroUsuarioActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/usuario" />
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/hint_nome_cadastro"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/textColorPrimary" />
+
+    <EditText
+        android:id="@+id/etEmailCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etNome"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="@string/hint_email_cadastro"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/textColorPrimary" />
+
+    <EditText
+        android:id="@+id/etSenhaCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etEmailCadastro"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="@string/hint_senha_cadastro"
+        android:inputType="textPassword"
+        android:textColor="@color/textColorPrimary" />
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etSenhaCadastro"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/btCadastrar"
+        android:textColor="@color/textColorPrimary"
+        android:theme="@style/botaoPadrao" />
+</RelativeLayout>

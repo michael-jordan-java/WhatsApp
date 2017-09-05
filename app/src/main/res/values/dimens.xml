@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="largura_logo">200dp</dimen>
+    <dimen name="altura_logo">163dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="largura_etCodigoPais">50dp</dimen>
+    <dimen name="largura_etDDD">50dp</dimen>
+</resources>

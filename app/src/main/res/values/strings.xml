@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WhatsApp</string>
+    <string name="hint_nome_login">Digite seu nome</string>
+    <string name="hint_etCodigoPais">+55</string>
+    <string name="hint_etDDD">11</string>
+    <string name="hint_etNumero">970707070</string>
+    <string name="login_btCadastrar">Cadastrar</string>
+    <string name="validador_tvValidacao">Validação</string>
+    <string name="validador_tvInfo">Você recebeu um SMS para validação do seu número, digite o código de validação abaixo:</string>
+    <string name="hint_validador_numero">Digite o código</string>
+    <string name="validador_btValidar">Validar</string>
+    <string name="hint_email">Digite seu email</string>
+    <string name="cadastrar">Não tem conta? Cadastre-se</string>
+    <string name="hint_nome_cadastro">Digite seu nome</string>
+    <string name="hint_email_cadastro">Digite seu email</string>
+    <string name="hint_senha_cadastro">Digite sua senha</string>
+    <string name="btCadastrar">Cadastrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_tab_conversas">Conversas</string>
+    <string name="title_tab_contatos">Contatos</string>
+</resources>
